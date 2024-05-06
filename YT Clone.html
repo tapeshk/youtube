@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title>YT Clone</title>
+
+        <style>
+
+            .body {padding-top: 60px; padding-left: 100px;} 
+            
+            .header {z-index: 1000; display: flex; flex-direction: row; margin-bottom: 15px; justify-content: space-between; position: fixed; left: 0px; right: 0px; top: 0px; height: 50px; background-color: white;}
+            .sidebar {position: fixed; left: 0px; right: 0px; bottom: 0px; top:50px}
+            .hl {display: flex; width: 200px; flex-shrink: 0; align-items: center;}
+            .ham-b {height: 40px; width: 40px; border-radius: 20px; border-style: none; margin-right: 20px; background-color: white;}
+            .ham-b:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+            .yt-l {height: 40px; width: 100px;  background-color: white; border-style: none;}
+            .yt-l:hover {cursor: pointer;}
+            .hm {flex: 1; display: flex; align-items: center;}
+            .sb {margin-right: 20px; width: 40px; height: 35px; margin-left: -15px; border-bottom-right-radius: 20px; border-top-right-radius: 20px; border-style: solid; border-width: 0.1px; border-color: rgb(209, 205, 205);}
+            .sb:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+            .vs {width: 40px; height: 40px; border-radius: 20px; border-style: none; background-color: rgb(240, 236, 236);}
+            .vs:hover {cursor: pointer;}
+            .hr {display: flex; width: 300px; flex-shrink: 0; justify-content: space-between; align-items: center;}
+            .ub {height: 40px; width: 40px; border: none; background-color: white; border-radius: 20px;}
+            .ub:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+            .ab {height: 40px; width: 40px; border: none; background-color: white; border-radius: 20px;}
+            .ab:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+            .ni {height: 40px; width: 40px; border: none; background-color: white; border-radius: 20px;}
+            .ni:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+            .pi {height: 40px; border-radius: 20px; border: none; background-color: white;}
+            .pib {height: 40px; border-radius: 20px; border: none; background-color: white;}
+            .pi:hover {cursor: pointer; background-color: rgb(240, 236, 236);}
+
+            .search-box {background-color: white; flex: 1; border-style: solid; border-width: 0.1px; border-color: rgb(209, 205, 205); border-radius: 20px; width: 0; padding: 9px; max-width: 600px;}
+            .search-box::placeholder {font-size: 15px;}
+            .preview1 {position: relative; font-family: helvetica; width: 370px; display: inline-block; margin-bottom: 40px; margin-right: 15px; color: rgb(96, 96, 96); font-size: 15px; vertical-align: top;}
+            .tn1 {width: 300px; margin-bottom: 5px; border-radius: 15px}
+            .nfp {width: 60px; display: inline-block; margin-right: 10px; vertical-align: top;}
+            .vdt1 {margin-bottom: 5px; margin-top: 0; font-weight: bold; color: black;}
+            .at1 {margin-bottom: 0; margin-top: 0;}
+            .st1 {margin-bottom: 0; margin-top: 0;}
+
+            .prvc {display: inline-block; vertical-align: top;}
+            .time {position:absolute; right: 80px; bottom: 70px; color: white; background-color: black;}
+                  
+        </style>
+
+    </head>
+
+    <body class="body">
+
+        <div class="header">
+            <div class="hl">    <div><button class="ham-b"><img src="Icons/hamburger-menu.svg" alt="Menue"></button></div>  <div><button class="yt-l"><img src="Icons/youtube-logo.svg" alt="logo"></button></div>  </div>
+            <div class="hm"><input class="search-box" placeholder="Search">     <button class="sb"><img src="Icons/search.svg"></button>    <button class="vs"><img src="Icons/voice-search-icon.svg" alt=""></button>  </div>
+            <div class="hr"><button class="ub"><img src="Icons/upload.svg"></button>     <button class="ab"><img src="Icons/youtube-apps.svg"></button>   <button class="ni"><img src="Icons/notifications.svg"></button>     <button class="pib"><img class="pi" src="Icons/my-channel.jpeg"></button>  </div>
+        </div>
+
+        <div class="sidebar">
+            <div><img src=""></div>
+        
+
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+            <div class="time">5:00</div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+        
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+        <div class="preview1">  
+            <img class="tn1" src="Thumbnails/tn-1.avif">
+            <img class="nfp" src="Thumbnails/6297647c7ec76b82fb21fce3.png">
+            <div class="prvc">
+                <p class="vdt1">Weathering With You</p>
+                <p class="at1">Netflix</p>
+                <p class="st1">3.4M Views &#183; 6 Months ago</p>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
